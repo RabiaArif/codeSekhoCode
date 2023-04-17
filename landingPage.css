@@ -62,13 +62,13 @@ h2{
     font-size: 64px;
     text-align: center;
 }
-.card{
+.card-reasons{
     border-style: inset;
     border-color: #1C4547;
     /* border-width: 3px; */
     border-radius: 20px;
 }
-.card-body{
+.card-reasons-body{
     padding-top: 50px;
     padding-left: 50px;
 }
@@ -86,13 +86,151 @@ h2{
   margin-right: auto;
   width: 70%;
 }
-.card-subtitle{
+.card-reasons-subtitle{
     margin-top: 30px;
     margin-bottom: 30px;
 
 }
-.card-link{
+.card-reasons-link{
     margin-top: 30px;
     text-decoration: none;
     color: black;
 }
+
+.row-visuals{
+    margin-top: 200px;
+    height: 700px;
+}
+.col-visuals{
+    padding-right:100px;
+    /* height: 200px;
+    width: 200px; */
+}
+.col-text
+{
+}
+h3{
+    font-style: poppins;
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.btn-join{
+    background-color: #1C4547;
+    color:white;
+    margin-top: 140px;
+    height: 50px;
+    width: 180px;
+}
+.btn-msg{
+    background-color: #1C4547;
+    color:white;
+   
+    width: 250px;
+}
+.container-courses{
+    height: 1000px;
+    font-style: poppins;
+}
+.card-course{
+    text-align: center;
+}
+.card-course-text{
+    font-weight: lighter;
+}
+.btn-learn{
+    background-color: #1C4547;
+    color:white;
+    margin-top: 30px;
+    height: 50px;
+    width: 120px;
+    border-radius: 7px;
+}
+.card-course-col{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container-services{
+    /* padding-bottom: 100px; */
+}
+.icon-img-services{
+
+    padding-left: 150px;
+    width: 30px; display: inline;
+}
+
+.footer{
+    
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+ 
+  border-radius: 3px;
+}
+.footer h1{
+    text-align: center;
+}
+
+.col-footer-1{
+    margin:70px;
+    font-weight:lighter ;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color:white ;
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+.footer  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.footer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+ 
+  border-radius: 3px;
+}
+.footer h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}*/
