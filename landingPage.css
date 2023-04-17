@@ -1,0 +1,98 @@
+body{
+    font-style: poppins;
+    font-weight: bold;
+
+}
+
+.headline-container{
+    height: 1286px;
+    color: white;
+    
+}
+.h1{
+    font-style: poppins;
+    font-weight: bold;
+    font-size: 75px;
+}
+.to{
+    color:#FFA034;
+}
+
+.row-headline{
+    height: 856px;
+    padding-right: 50px;
+}
+#navbarSupportedContent{
+    align-items:flex-end;
+}
+.headline-col{
+    padding-right: 100px;
+    padding-top: 125px;
+}
+.headline-text{
+    padding-top: 100px;
+    padding-right: 50px;
+
+}
+.headline-img{
+    height: 450px;
+    width: 450px;
+}
+
+.navbar{
+    padding-left: 50px;
+
+    color:white;
+    height: 111px;
+    /* //font-size: 30px; */
+}
+.btn-login,.btn-courses{
+    margin-right: 10px;
+    background-color: #FFA034;
+}
+.btn-courses{
+    margin-top: 100px;
+    font-weight: bold;
+}
+.container-reasons{
+    margin-top: 100px;
+}
+h2{
+    font-weight:bold;
+    font-size: 64px;
+    text-align: center;
+}
+.card{
+    border-style: inset;
+    border-color: #1C4547;
+    /* border-width: 3px; */
+    border-radius: 20px;
+}
+.card-body{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.icons-R{
+    width:70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: #1C4547;
+}
+.icon-img{
+    display: block;
+  margin-left: auto;
+  padding-top: 10px;
+  margin-right: auto;
+  width: 70%;
+}
+.card-subtitle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.card-link{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
