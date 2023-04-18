@@ -9,8 +9,17 @@
     <title>Code Sekho</title>
 </head>
 <body>
-  <div class="container-fluid headline-container"  style="background:rgb(255, 255, 255);color:white; background:url('headlineBg.png')">
+  <div class="container-fluid headline-container"  >
   
+    <span class="star3">
+      <img src="Star 3.png" alt="Star3 for background">
+    </span>
+    <span class="star2">
+      <img src="Star 2.png" alt="Star3 for background">
+    </span><span class="star1">
+      <img src="Star 1.png" alt="Star3 for background">
+    </span>
+
     <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Code Sekho</a>
@@ -37,7 +46,7 @@
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
             </li>
           </ul>
-          <button class="btn btn-warning btn-login" type="submit">Login</button>
+          <button class="btn btn-login" type="submit">Login</button>
           <button class="btn btn-outline-light" type="submit">SignUp</button>
         </div>
       </div>
@@ -46,35 +55,35 @@
     <div class="container">
       <div class="row row-headline">
         <div class="col headline-col">
-          <p class="h1">Welcome <span class="to">To</span></p>
-          <p class="h1">Code Sekho</p>
+          <p class="h1 h1-head">Welcome <span class="to">To</span></p>
+          <p class="h1 h1-head">Code Sekho</p>
           <p class="headline-text">Lorem ipsum dolor sit amet, consectletur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore 
-            magna  </p>
-            <hr/>
-          <button class="btn btn-warning btn-courses" type="submit">Explore Courses 
+              sed do eiusmod tempor incididunt ut labore et dolore 
+              magna  </p>
+          <hr class="line1">
+          <button class="btn btn-courses" type="submit">Explore Courses 
             <img src="Arrow right alt.png" alt="Arrow right" style="width: 30px;">
           </button>
-         
         </div>
+
         <div class="col headline-img">
-          <img src='headlineImg.png'>
         </div>
-       
+        
       </div>
     </div>
-     
   </div>
  
   <div class="container container-reasons">
 
-    <h2>3 Reasons To Choose Us</h2>
+    <h2 class="h2-reasons">
+      3 Reasons To Choose Us
+    </h2>
 
-    <div class="container">
+    <div class="container-fluid container-reasonCards">
       <div class="row">
-        <div class="col">
-
-          <div class="card card-reasons" style="width: 300px; height: 350px;">
+        <div class="col-sm">
+          
+          <div class="card card-reasons">
             <div class="card-body card-reasons-body">
               <div class="icons-R" > <img class="icon-img" src="Support agent.png"> </div>
               <h5 class="card-title">24/7 Support</h5>
@@ -84,44 +93,38 @@
               <a href="#" class="card-link card-reasons-link">Read More <img src="Arrow right alt.png" alt="Arrow right" style="width: 20px;"></a>
             </div>
           </div>
-          
+
         </div>
-        <div class="col">
-          <div class="card card-reasons" style="width: 300px; height: 350px;">
 
-          <div class="card-body card-reasons-body">
-            <div class="icons-R" > <img class="icon-img" src="Tourist Guide.png"> </div>
-            <h5 class="card-title">Top Guide</h5>
-            <h6 class="card-subtitle card-reasons-subtitle mb-2 text-muted">Card subtitleLorem ipsum dolor sit amet, 
-              consectetur adipiscing 
-              sed do eiusmod </h6>
-              <a href="#" class="card-link card-reasons-link">Read More <img src="Arrow right alt.png" alt="Arrow right" style="width: 20px;"></a>
-
+        <div class="col-sm">
+          <div class="card card-reasons" >
+            <div class="card-body card-reasons-body">
+              <div class="icons-R" > <img class="icon-img" src="Tourist Guide.png"> </div>
+              <h5 class="card-title">Top Guide</h5>
+              <h6 class="card-subtitle card-reasons-subtitle mb-2 text-muted">Card subtitleLorem ipsum dolor sit amet, 
+                consectetur adipiscing 
+                sed do eiusmod </h6>
+                <a href="#" class="card-link card-reasons-link">Read More <img src="Arrow right alt.png" alt="Arrow right" style="width: 20px;"></a>
+            </div>
           </div>
         </div>
-          
-        </div>
-        <div class="col">
 
-          <div class="card card-reasons" style="width: 300px; height: 350px;">
-
+        <div class="col-sm">
+          <div class="card card-reasons">
             <div class="card-body card-reasons-body">
               <div class="icons-R" > <img class="icon-img" src="Library books.png"> </div>
-
               <h5 class="card-title">Best Courses</h5>
               <h6 class="card-subtitle card-reasons-subtitle mb-2 text-muted">Card subtitleLorem ipsum dolor sit amet, 
                 consectetur adipiscing 
                 sed do eiusmod </h6>
                 <a href="#" class="card-link card-reasons-link">Read More <img src="Arrow right alt.png" alt="Arrow right" style="width: 20px;"></a>
-
             </div>
           </div>
         </div>
       </div>
-      <hr>
     </div>
-
-   </div>
+    <hr class="line2">
+  </div>
 
 
     
@@ -133,7 +136,7 @@
         </div>
         <div class="col col-text-visuals">
           <div class="col-text">
-            <h3>Take the next step toward
+            <h3 class="h3-visuals">Take the next step toward
               your personal and 
               professional goals with
               codesekho.</h3>
@@ -141,22 +144,21 @@
                 ipsum dolor sit amet
                 </p>
           </div>
-           <button class="btn btn-warning btn-join" type="submit">Join Now </button>
+           <button class="btn btn-join" type="submit">Join Now </button>
         </div>
-        
+        <hr class="line2">
       </div>
-    <hr>
-
   </div>
+ 
 
 
   <div class="container container-courses">
-    <h2>Our Courses</h2>
-    <p style="text-align: center; font-weight: lighter;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In id reiciendis voluptates ab</p>
+    <h2 class="h2-courses">Our Courses</h2>
+    <p class="p-courses">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In id reiciendis voluptates ab</p>
 
-    <div class="container">
+    <div class="container ">
       
-      <div class="row">
+      <div class="row row-courses">
         <div class="col">
          
           <div class="card card-course" style="width: 400px; height:400px">
@@ -168,7 +170,7 @@
                 tetur adipiscing 
                 
                  </p>
-              <button class="btn btn-warning btn-learn" type="submit">Learn</button>
+              <button class="btn btn-learn" type="submit">Learn</button>
 
             </div>
           </div>
@@ -185,20 +187,17 @@
                   tetur adipiscing 
                   
                    </p>
-                <button class="btn btn-warning btn-learn" type="submit">Learn</button>
-
+                <button class="btn btn-learn" type="submit">Learn</button>
               </div>
             </div>
-          
           </div>
-        
-        <hr>
       </div>
   </div>
+  <hr class="line2">
 
 
   <div class="container container-services">
-    <h2>Our Best Services For You</h2>
+    <h2  class="h2-reasons">Our Best Services For You</h2>
     <p style="text-align: center; font-weight: lighter;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In id reiciendis voluptates ab</p>
 
     <div class="container">
@@ -258,10 +257,12 @@
         
        
       </div>
-      <hr>
   </div>
 
-
+ 
+  <hr class="line2">
+ 
+ 
   <div class="container footer">
     <h1>
       Contact Us
@@ -325,7 +326,7 @@
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
               </div>
-              <button class="btn btn-warning btn-msg" type="submit">Send Message</button>
+              <button class="btn btn-msg" type="submit">Send Message</button>
 
             </form>
           </div>
