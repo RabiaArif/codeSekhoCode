@@ -1,370 +1,2079 @@
 body{
-    font-style: 'poppins';
-    font-weight: bold;
     max-width: 100%;
-}
+    font-family: 'poppins';
 
-.star3{
-    position: absolute;
-    width: 74px;
-    height: 74px;
-    left: 703px;
-    top: 500px;
-    transform: rotate(-45deg);
-}
-
-.star2{
-    position: absolute;
-width: 74px;
-height: 74px;
-left: 900px;
-top: 300px;
-transform: rotate(-45deg);
-}
-.star1{
-    position: absolute;
-width: 74px;
-height: 74px;
-left: 1175px;
-top: 950px;
 }
 
 .navbar{
     padding-left: 50px;
     color:white;
-    height: 111px;
+    height: 83px;
     /* //font-size: 30px; */
 }
+.nav-head{
+    font-family: 'Comfortaa' !important;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+/* .nav-item{
+    width: 61px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right:10px;
+    color: #FFFFFF;
+} */
 .navbar-nav
 {
     margin-left: 60%;
 }
-.btn-login,.btn-courses{
+.btn-login{
     margin-right: 10px;
     background-color: #FFA034;
 }
-.btn-courses{
-    margin-top: 100px;
-    font-weight: bold;
-}
-.headline-container{
-
-    background:rgb(255, 255, 255);
-    color:white; 
-    background:url('headlineBg.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 1286px;
-    border-radius: 0px 0px 50px 50px;
-}
-
-.row-headline{
-    height: 856px;
-    width:100%;
-}
-.headline-col{
-    padding-top: 125px;
-    width:40%;
-}
-
-.h1-head{
-    font-style: poppins;
-    font-weight: bold;
-    font-size: 75px;
-}
-.headline-text{
-    padding-top: 100px;
-    padding-right: 100px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 36px;
-    color: #FFFFFF;
-}
-
-.to{
-    color:#FFA034;
-}
-.line1{
-    width: 85%;
-height: 0px;
-left: 119px;
-top: 782.81px;
-border: 1px solid #858585;
-}
-
-.headline-img{
-    background:url('headlineImg.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-/* Container 2 : reasons */
-
-.container-reasons{
-    margin-top: 100px;
-    height: 700px;
-}
-
-.h2-reasons{
-    padding-top: 70px;
-    font-size: 64px;
-    text-align: center;
-}
-
-.container-reasonCards{
-
-    margin-top: 70px;
-    padding-top: 30px;
-    padding-left: 100px;
-    height: 400px;
 
 
-}
-.card-reasons{
-    width: 300px; height: 350px;
-    /* border-width: 3px; */
-    border-radius: 20px;
-    background: #FFFFFF;
-
-}
-.card-reasons-body{
-    padding-top: 50px;
-    padding-left: 50px;
-}
-.icons-R{
-    width:60px;
-    height: 60px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    background-color: #1C4547;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-}
-.icon-img{
-    display: block;
-  margin-left: auto;
-  padding-top: 10px;
-  margin-right: auto;
-  width: 70%;
-}
-.card-reasons-subtitle{
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-.card-reasons-link{
-    margin-top: 30px;
-    text-decoration: none;
-    color: black;
-}
-.line2
+/* Extra small devices (smartphones, Android phones, landscape iPhone, 480px) */
+@media only screen and (min-width: 480px)
 {
-    width: 35%;
-    margin-left: 32%;
-    height: 0px;
-    margin-top: 40px;
-    border: 1.5px solid #858585;
-   
-}
+    .headline-container{
 
-
-.row-visuals{
-    margin-top: 200px;
-    height: 700px;
-}
-.col-visuals{
-    padding-right:100px;
-    /* height: 200px;
-    width: 200px; */
-}
-.col-text
-{
-}
-.h3-visuals{
-    font-style: poppins;
-    font-weight: bold;
-    line-height: 45px;
-    font-size: 40px;
-    margin-bottom: 50px;
-}
-.btn-join{
-    border-radius: 15px;
-    background-color: #1C4547;
-    color:white;
-    margin-top: 140px;
-    height: 50px;
-    width: 180px;
-}
-.btn-msg{
-    background-color: #1C4547;
-    color:white;
-    width: 200px;
-}
-
-
-
-/* Courses */
-.container-courses{
-    height: 1000px;
-    font-style: 'poppins';
-}
-.h2-courses{
-    padding-top: 60px;
-    font-size: 64px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.p-courses{
-    text-align: center; 
-    font-weight: lighter;
-    margin-bottom: 40px;
-}
-.row-courses{
-    padding-left: 200px;
-}
-.card-course{
-    text-align: center;
-    box-shadow: 0px 2px 87px rgba(182, 182, 182, 0.25);
-border-radius: 10px;
-}
-.card-course-text{
-    font-weight: lighter;
-}
-.btn-learn{
-    background-color: #1C4547;
-    color:white;
-    margin-top: 30px;
-    height: 40px;
-    width: 140px;
-    border-radius: 10px;
-}
-.card-course-col{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-
-
-
-/* Services */
-.container-services{
-    height: 700px;
-}
-.h2-services{
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-size: 64px;
-    text-align: center;
-}
-
-.p-services
-{
-    text-align: center; 
-    font-weight: lighter;
-    padding-bottom: 40px;
-
-}
-.row-services
-{
-    padding:5%;
-    margin-bottom:50px;
-}
-.card-services1{
-    width: 300px;
-    height:250px;
-    background: linear-gradient(224.58deg, #38FF34 3.83%, #FFFFFF 50.81%);
-    box-shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
-    border-radius: 40px;
-}
-.card-services-body{
-    padding-left: 50px;
-    padding-top: 50px;
-}
-.card-services2{
-    width: 300px;
-    height:250px;
-    background: linear-gradient(224.58deg, #FF9534 3.83%, #FFFFFF 50.81%);
-    box-shadow: 3px 3px 70px rgba(182, 182, 182, 0.35);
-    border-radius: 40px;
-}
-.card-services3{
-    width: 300px;
-    height:250px;
-    background: linear-gradient(224.58deg, #34FFC2 3.83%, #FFFFFF 50.81%);
-    -shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
-    border-radius: 40px;
-}
-
-.line3
-{
+        background:rgb(255, 255, 255);
+        color:white; 
+        background:url('headlineBgSmallScreen.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 550px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .row-headline{
+        height: 400px;
+        width:100%;
+    }
+    .headline-col{
+        padding-top: 30px;
+        padding-left: 25px;
+        width:100%;
+        height: 100%;
+    }
+    
+    .h1-head{
+        font-style: 'poppins';
+        font-weight: bold;
+        font-size: 26px;
+    }
+    .headline-text{
+        padding-top: 10px;
+        padding-right: 10px;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    
+    .yellowFont{
+        color:#FFA034;
+    }
+    .btn-courses{
+        width: 150px;
+        height: 35px;
+        background-color: #FFA034;
+        font-weight: bold;
+        padding:0px 0px 0px 0px;
+    }
+    .line1{
+        width: 100%;
+        height: 0px;
+        border: 1px solid #858585;
+    }    
+    .arrow-right
+    {
+        width: 15px;
+    }
+    
+    
+    
+    
+    /* Container 2 : reasons */
+    
+    .container-reasons{
+        margin-top: 100px;
+        height: 500px;
+    }
+    
+    .h2-reasons{
+        padding-top: 40px;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .container-reasonCards{
+        margin-top: 30px;
+        height: 380px;    
+    }
+    .card-reasons{
+        width: 200px; 
+        height: 300px;
+        border-radius: 20px;
+        background: #FFFFFF;
+    }
+    .card-reasons-body{
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .icons-R{
+        width:60px;
+        height: 60px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        background-color: #1C4547;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-reasons-subtitle{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .card-reasons-link{
+        margin-top: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    .line2
+    {
         width: 35%;
         margin-left: 32%;
         height: 0px;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 10px;
         border: 1.5px solid #858585;
        
-}
-.icon-img-services{
+    }
 
-    padding-left: 150px;
-    width: 30px; display: inline;
+
+    /* Container3 : visuals */
+    .row-visuals{
+        margin-top: 200px;
+        height: 700px;
+    }
+    .col-visuals{
+        padding-right:100px;
+        /* height: 200px;
+        width: 200px; */
+    }
+    .col-text
+    {
+    }
+    .h3-visuals{
+        font-style: poppins;
+        font-weight: bold;
+        line-height: 45px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .btn-join{
+        border-radius: 15px;
+        background-color: #1C4547;
+        color:white;
+        margin-top: 140px;
+        height: 50px;
+        width: 180px;
+    }
+    .btn-msg{
+        background-color: #1C4547;
+        color:white;
+        margin-left:10px;
+        width: 180px;
+    }
+    
+    
+    
+    /* Courses */
+    .container-courses{
+        height: 1000px;
+        font-style: 'poppins';
+    }
+    .h2-courses{
+        padding-top: 60px;
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .p-courses{
+        text-align: center; 
+        font-weight: lighter;
+        margin-bottom: 40px;
+    }
+    .row-courses{
+        padding-left: 200px;
+    }
+    .card-course{
+        text-align: center;
+        box-shadow: 0px 2px 87px rgba(182, 182, 182, 0.25);
+    border-radius: 10px;
+    }
+    .card-course-text{
+        font-weight: lighter;
+    }
+    .btn-learn{
+        background-color: #1C4547;
+        color:white;
+        margin-top: 30px;
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+    }
+    .card-course-col{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    
+    
+    
+    /* Services */
+    .container-services{
+        height: 700px;
+    }
+    .h2-services{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .p-services
+    {
+        text-align: center; 
+        font-weight: lighter;
+        padding-bottom: 40px;
+    
+    }
+    .row-services
+    {
+        padding:5%;
+        margin-bottom:50px;
+    }
+    .card-services1{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #38FF34 3.83%, #FFFFFF 50.81%);
+        box-shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services-body{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .card-services2{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #FF9534 3.83%, #FFFFFF 50.81%);
+        box-shadow: 3px 3px 70px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services3{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #34FFC2 3.83%, #FFFFFF 50.81%);
+        -shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    
+    .line3
+    {
+            width: 35%;
+            margin-left: 32%;
+            height: 0px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            border: 1.5px solid #858585;
+           
+    }
+    .icon-img-services{
+    
+        padding-left: 150px;
+        width: 30px; display: inline;
+    }
+    
+    .footer{
+        position: absolute;
+        left:0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(107.71deg, rgba(28, 69, 71, 0) 0%, #6DB0B3 95.97%);
+    }
+    .h1-footer{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 96px;
+        color: #000000;
+        text-align: center;
+    }
+    .row-footer{
+        padding:70px;
+        height: 580px;
+    }
+    .col-footer-1{
+        font-weight:lighter ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding-right:100px;
+        color: #565656;
+    }
+    .row-address
+    {
+        /* width:50%;
+        height:15%; */
+       
+    }
+    .col-location{
+        
+    }
+    
+    .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color:white ;
+    }
+    
+    .col-footer-2{
+    
+    }
+    
+    .form-control1{
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+        
+    }
+    
+    .form-control2{
+        box-sizing: border-box;
+        height: 150px;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+    }
+
 }
 
-.footer{
-    position: absolute;
-    left:0;
-    width: 100%;
-    height: 700px;
-    background: linear-gradient(107.71deg, rgba(28, 69, 71, 0) 0%, #6DB0B3 95.97%);
-}
-.h1-footer{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 96px;
-    color: #000000;
-    text-align: center;
-}
-.row-footer{
-    padding:70px;
-    height: 580px;
-}
-.col-footer-1{
-    font-weight:lighter ;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    padding-right:100px;
-    color: #565656;
-}
-.icon{
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-    background-color:white ;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) 
+{
+    .headline-container{
+
+        background:rgb(255, 255, 255);
+        color:white; 
+        background:url('headlineBgSmallScreen.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 600px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .row-headline{
+        height: 400px;
+        width:100%;
+    }
+    .headline-col{
+        padding-top: 30px;
+        padding-left: 25px;
+        width:50%;
+        height: 100%;
+    }
+    
+    .h1-head{
+        font-style: 'poppins';
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .headline-text{
+        padding-top: 20px;
+        padding-right: 10px;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    
+    .yellowFont{
+        color:#FFA034;
+    }
+    .btn-courses{
+        width: 100x;
+        height: 40px;
+        margin-right: 10px;
+        background-color: #FFA034;
+        font-weight: bold;
+    }
+    .line1{
+        width: 100%;
+        height: 0px;
+        border: 1px solid #858585;
+    }    
+    .arrow-right
+    {
+        width: 30px;
+    }
+
+
+    
+    
+    /* Container 2 : reasons */
+    
+    .container-reasons{
+        margin-top: 80px;
+        height: 400px;
+    }
+    
+    .h2-reasons{
+        padding-top: 25px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .container-reasonCards{
+        margin-top: 20px;
+        height: 300px;    
+    }
+    .card-reasons{
+        width: 130px; 
+        height: 300px;
+        border-radius: 20px;
+        background: #fff;
+        margin:0px !important;
+    }
+    .card-reasons-body{
+    }
+    .icons-R{
+        width:50px;
+        height: 50px;
+        border-radius: 20px;
+        margin-bottom: 20px !important;
+        background-color: #1C4547;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-reasons-subtitle{
+    }
+    .card-reasons-link{
+        margin-top: 5px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .line2
+    {
+        width: 35%;
+        margin-left: 32%;
+        height: 0px;
+        margin-top: 10px;
+        border: 1.5px solid #858585;
+       
+    }
+
+
+
+
+    /* Container3 : visuals */
+    .row-visuals{
+        margin-top: 200px;
+        height: 700px;
+    }
+    .col-visuals{
+        padding-right:100px;
+        /* height: 200px;
+        width: 200px; */
+    }
+    .col-text
+    {
+    }
+    .h3-visuals{
+        font-style: poppins;
+        font-weight: bold;
+        line-height: 45px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .btn-join{
+        border-radius: 15px;
+        background-color: #1C4547;
+        color:white;
+        margin-top: 140px;
+        height: 50px;
+        width: 180px;
+    }
+    .btn-msg{
+        background-color: #1C4547;
+        color:white;
+        margin-left:10px;
+        width: 180px;
+    }
+    
+    
+    
+    /* Courses */
+    .container-courses{
+        height: 1000px;
+        font-style: 'poppins';
+    }
+    .h2-courses{
+        padding-top: 60px;
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .p-courses{
+        text-align: center; 
+        font-weight: lighter;
+        margin-bottom: 40px;
+    }
+    .row-courses{
+        padding-left: 200px;
+    }
+    .card-course{
+        text-align: center;
+        box-shadow: 0px 2px 87px rgba(182, 182, 182, 0.25);
+    border-radius: 10px;
+    }
+    .card-course-text{
+        font-weight: lighter;
+    }
+    .btn-learn{
+        background-color: #1C4547;
+        color:white;
+        margin-top: 30px;
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+    }
+    .card-course-col{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    
+    
+    
+    /* Services */
+    .container-services{
+        height: 700px;
+    }
+    .h2-services{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .p-services
+    {
+        text-align: center; 
+        font-weight: lighter;
+        padding-bottom: 40px;
+    
+    }
+    .row-services
+    {
+        padding:5%;
+        margin-bottom:50px;
+    }
+    .card-services1{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #38FF34 3.83%, #FFFFFF 50.81%);
+        box-shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services-body{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .card-services2{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #FF9534 3.83%, #FFFFFF 50.81%);
+        box-shadow: 3px 3px 70px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services3{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #34FFC2 3.83%, #FFFFFF 50.81%);
+        -shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    
+    .line3
+    {
+            width: 35%;
+            margin-left: 32%;
+            height: 0px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            border: 1.5px solid #858585;
+           
+    }
+    .icon-img-services{
+    
+        padding-left: 150px;
+        width: 30px; display: inline;
+    }
+    
+    .footer{
+        position: absolute;
+        left:0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(107.71deg, rgba(28, 69, 71, 0) 0%, #6DB0B3 95.97%);
+    }
+    .h1-footer{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 96px;
+        color: #000000;
+        text-align: center;
+    }
+    .row-footer{
+        padding:70px;
+        height: 580px;
+    }
+    .col-footer-1{
+        font-weight:lighter ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding-right:100px;
+        color: #565656;
+    }
+    .row-address
+    {
+        /* width:50%;
+        height:15%; */
+       
+    }
+    .col-location{
+        
+    }
+    
+    .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color:white ;
+    }
+    
+    .col-footer-2{
+    
+    }
+    
+    .form-control1{
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+        
+    }
+    
+    .form-control2{
+        box-sizing: border-box;
+        height: 150px;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+    }
+
 }
 
-.col-footer-2{
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .headline-container{
+
+        background:rgb(255, 255, 255);
+        color:white; 
+        background:url('headlineBgSmallScreen.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 600px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .row-headline{
+        height: 400px;
+        width:100%;
+    }
+    .headline-col{
+        padding-top: 10px;
+        padding-left: 5px;
+        height: 100%;
+    }
+    
+    .h1-head{
+        font-style: 'poppins';
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .headline-text{
+        padding-top: 20px;
+        padding-right: 10px;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 25px;
+        line-height: 25px;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    
+    .yellowFont{
+        color:#FFA034;
+    }
+    .btn-courses{
+        width: 180px;
+        height: 40px;
+        margin-right: 10px;
+        margin-top: 30px;
+        background-color: #FFA034;
+        font-weight: bold;
+    }
+    .line1{
+        margin-top: 30px;
+        width: 100%;
+        height: 0px;
+        border: 1px solid #858585;
+    }
+    .arrow-right
+    {
+        width: 30px;
+    }    
+
+
+    
+    
+    /* Container 2 : reasons */
+    
+    .container-reasons{
+        margin-top: 100px;
+        height: 500px;
+    }
+    
+    .h2-reasons{
+        padding-top: 40px;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .container-reasonCards{
+        margin-top: 30px;
+        height: 380px;    
+    }
+    .card-reasons{
+        width: 200px; 
+        height: 300px;
+        border-radius: 20px;
+        background: #FFFFFF;
+    }
+    .card-reasons-body{
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .icons-R{
+        width:60px;
+        height: 60px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        background-color: #1C4547;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-reasons-subtitle{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .card-reasons-link{
+        margin-top: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    .line2
+    {
+        width: 35%;
+        margin-left: 32%;
+        height: 0px;
+        margin-top: 10px;
+        border: 1.5px solid #858585;
+       
+    }
+
+
+    /* Container3 : visuals */
+    .row-visuals{
+        margin-top: 200px;
+        height: 700px;
+    }
+    .col-visuals{
+        padding-right:100px;
+        /* height: 200px;
+        width: 200px; */
+    }
+    .col-text
+    {
+    }
+    .h3-visuals{
+        font-style: poppins;
+        font-weight: bold;
+        line-height: 45px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .btn-join{
+        border-radius: 15px;
+        background-color: #1C4547;
+        color:white;
+        margin-top: 140px;
+        height: 50px;
+        width: 180px;
+    }
+    .btn-msg{
+        background-color: #1C4547;
+        color:white;
+        margin-left:10px;
+        width: 180px;
+    }
+    
+    
+    
+    /* Courses */
+    .container-courses{
+        height: 1000px;
+        font-style: 'poppins';
+    }
+    .h2-courses{
+        padding-top: 60px;
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .p-courses{
+        text-align: center; 
+        font-weight: lighter;
+        margin-bottom: 40px;
+    }
+    .row-courses{
+        padding-left: 200px;
+    }
+    .card-course{
+        text-align: center;
+        box-shadow: 0px 2px 87px rgba(182, 182, 182, 0.25);
+    border-radius: 10px;
+    }
+    .card-course-text{
+        font-weight: lighter;
+    }
+    .btn-learn{
+        background-color: #1C4547;
+        color:white;
+        margin-top: 30px;
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+    }
+    .card-course-col{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    
+    
+    
+    /* Services */
+    .container-services{
+        height: 700px;
+    }
+    .h2-services{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .p-services
+    {
+        text-align: center; 
+        font-weight: lighter;
+        padding-bottom: 40px;
+    
+    }
+    .row-services
+    {
+        padding:5%;
+        margin-bottom:50px;
+    }
+    .card-services1{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #38FF34 3.83%, #FFFFFF 50.81%);
+        box-shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services-body{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .card-services2{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #FF9534 3.83%, #FFFFFF 50.81%);
+        box-shadow: 3px 3px 70px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services3{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #34FFC2 3.83%, #FFFFFF 50.81%);
+        -shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    
+    .line3
+    {
+            width: 35%;
+            margin-left: 32%;
+            height: 0px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            border: 1.5px solid #858585;
+           
+    }
+    .icon-img-services{
+    
+        padding-left: 150px;
+        width: 30px; display: inline;
+    }
+    
+    .footer{
+        position: absolute;
+        left:0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(107.71deg, rgba(28, 69, 71, 0) 0%, #6DB0B3 95.97%);
+    }
+    .h1-footer{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 96px;
+        color: #000000;
+        text-align: center;
+    }
+    .row-footer{
+        padding:70px;
+        height: 580px;
+    }
+    .col-footer-1{
+        font-weight:lighter ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding-right:100px;
+        color: #565656;
+    }
+    .row-address
+    {
+        /* width:50%;
+        height:15%; */
+       
+    }
+    .col-location{
+        
+    }
+    
+    .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color:white ;
+    }
+    
+    .col-footer-2{
+    
+    }
+    
+    .form-control1{
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+        
+    }
+    
+    .form-control2{
+        box-sizing: border-box;
+        height: 150px;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+    }
 
 }
 
-.form-control1{
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #1C4547;
-    border-radius: 49px;
-    margin-bottom:50px;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .headline-container{
+
+        background:rgb(255, 255, 255);
+        color:white; 
+        background:url('headlineBgSmallScreen.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 700px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .row-headline{
+        height: 470px;
+        width:100%;
+    }
+    .headline-col{
+        padding-top: 30px;
+        padding-left: 15px;
+        width:50%;
+        height: 100%;
+    }
+    
+    .h1-head{
+        font-style: 'poppins';
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .headline-text{
+        padding-top: 20px;
+        padding-right: 10px;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    
+    .yellowFont{
+        color:#FFA034;
+    }
+    .btn-courses{
+        width: 180px;
+        height: 50px;
+        margin-right: 10px;
+        background-color: #FFA034;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    .line1{
+        width: 100%;
+        margin-top: 50px;
+
+        height: 0px;
+        border: 1px solid #858585;
+    }
+    .arrow-right
+    {
+        width: 30px;
+    }
+
+
+    
+    /* Container 2 : reasons */
+    
+    .container-reasons{
+        margin-top: 100px;
+        height: 500px;
+    }
+    
+    .h2-reasons{
+        padding-top: 40px;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .container-reasonCards{
+        margin-top: 30px;
+        height: 380px;    
+    }
+    .card-reasons{
+        width: 200px; 
+        height: 300px;
+        border-radius: 20px;
+        background: #FFFFFF;
+    }
+    .card-reasons-body{
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .icons-R{
+        width:60px;
+        height: 60px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        background-color: #1C4547;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-reasons-subtitle{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .card-reasons-link{
+        margin-top: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    .line2
+    {
+        width: 35%;
+        margin-left: 32%;
+        height: 0px;
+        margin-top: 10px;
+        border: 1.5px solid #858585;
+       
+    }
+
+
+    /* Container3 : visuals */
+    .row-visuals{
+        margin-top: 200px;
+        height: 700px;
+    }
+    .col-visuals{
+        padding-right:100px;
+        /* height: 200px;
+        width: 200px; */
+    }
+    .col-text
+    {
+    }
+    .h3-visuals{
+        font-style: poppins;
+        font-weight: bold;
+        line-height: 45px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .btn-join{
+        border-radius: 15px;
+        background-color: #1C4547;
+        color:white;
+        margin-top: 140px;
+        height: 50px;
+        width: 180px;
+    }
+    .btn-msg{
+        background-color: #1C4547;
+        color:white;
+        margin-left:10px;
+        width: 180px;
+    }
+    
+    
+    
+    /* Courses */
+    .container-courses{
+        height: 1000px;
+        font-style: 'poppins';
+    }
+    .h2-courses{
+        padding-top: 60px;
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .p-courses{
+        text-align: center; 
+        font-weight: lighter;
+        margin-bottom: 40px;
+    }
+    .row-courses{
+        padding-left: 200px;
+    }
+    .card-course{
+        text-align: center;
+        box-shadow: 0px 2px 87px rgba(182, 182, 182, 0.25);
+    border-radius: 10px;
+    }
+    .card-course-text{
+        font-weight: lighter;
+    }
+    .btn-learn{
+        background-color: #1C4547;
+        color:white;
+        margin-top: 30px;
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+    }
+    .card-course-col{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    
+    
+    
+    /* Services */
+    .container-services{
+        height: 700px;
+    }
+    .h2-services{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .p-services
+    {
+        text-align: center; 
+        font-weight: lighter;
+        padding-bottom: 40px;
+    
+    }
+    .row-services
+    {
+        padding:5%;
+        margin-bottom:50px;
+    }
+    .card-services1{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #38FF34 3.83%, #FFFFFF 50.81%);
+        box-shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services-body{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .card-services2{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #FF9534 3.83%, #FFFFFF 50.81%);
+        box-shadow: 3px 3px 70px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services3{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #34FFC2 3.83%, #FFFFFF 50.81%);
+        -shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    
+    .line3
+    {
+            width: 35%;
+            margin-left: 32%;
+            height: 0px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            border: 1.5px solid #858585;
+           
+    }
+    .icon-img-services{
+    
+        padding-left: 150px;
+        width: 30px; display: inline;
+    }
+    
+    .footer{
+        position: absolute;
+        left:0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(107.71deg, rgba(28, 69, 71, 0) 0%, #6DB0B3 95.97%);
+    }
+    .h1-footer{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 96px;
+        color: #000000;
+        text-align: center;
+    }
+    .row-footer{
+        padding:70px;
+        height: 580px;
+    }
+    .col-footer-1{
+        font-weight:lighter ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding-right:100px;
+        color: #565656;
+    }
+    .row-address
+    {
+        /* width:50%;
+        height:15%; */
+       
+    }
+    .col-location{
+        
+    }
+    
+    .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color:white ;
+    }
+    
+    .col-footer-2{
+    
+    }
+    
+    .form-control1{
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+        
+    }
+    
+    .form-control2{
+        box-sizing: border-box;
+        height: 150px;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+    }
+
+
+
 }
 
-.form-control2{
-    box-sizing: border-box;
-    height: 200px;
-    background: #FFFFFF;
-    border: 1px solid #1C4547;
-    border-radius: 49px;
-    margin-bottom:50px;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .headline-container{
+
+        background:rgb(255, 255, 255);
+        color:white; 
+        background:url('headlineBg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 900px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .row-headline{
+        height: 700px;
+        width:100%;
+    }
+    .headline-col{
+        padding-top: 75px;
+        padding-left: 55px;
+        width:50%;
+        height: 100%;
+    }
+    
+    .h1-head{
+        font-family: 'poppins';
+        font-weight: bold;
+        font-size: 70px;
+    }
+    .headline-text{
+        font-family: 'poppins';
+        padding-top: 50px;
+        padding-right: 30px;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 26px;
+        line-height: 40px;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    
+    .yellowFont{
+        color:#FFA034;
+    }
+    .btn-courses{
+        width: 200px;
+
+        height: 50px;
+        margin-right: 10px;
+        background-color: #FFA034;
+        margin-top: 50px;
+        font-weight: bold;
+    }
+    .line1{
+        margin-top: 20px;
+        width: 95%;
+        height: 0px;
+        border: 1px solid #858585;
+    }
+    .arrow-right
+    {
+        width: 30px;
+    }
+
+    /* Container 2 : reasons */
+    
+    .container-reasons{
+        margin-top: 100px;
+        height: 650px;
+    }
+    
+    .h2-reasons{
+        padding-top: 40px;
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .container-reasonCards{
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-left: 50px;
+        height: 350px;    
+    }
+    .card-reasons{
+        width: 250px; 
+        height: 330px;
+        /* border-width: 3px; */
+        border-radius: 20px;
+        background: #FFFFFF;
+    
+    }
+    .card-reasons-body{
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .icons-R{
+        width:60px;
+        height: 60px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        background-color: #1C4547;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-reasons-subtitle{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+    .card-reasons-link{
+        margin-top: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    .line2
+    {
+        width: 35%;
+        margin-left: 32%;
+        height: 0px;
+        margin-top: 40px;
+        border: 1.5px solid #858585;
+       
+    }
+    
+
+    /* container 3 : visuals  */
+    .row-visuals{
+        margin-top: 200px;
+        height: 700px;
+    }
+    .col-visuals{
+        padding-right:100px;
+        /* height: 200px;
+        width: 200px; */
+    }
+    .col-text
+    {
+    }
+    .h3-visuals{
+        font-style: poppins;
+        font-weight: bold;
+        line-height: 45px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .btn-join{
+        border-radius: 15px;
+        background-color: #1C4547;
+        color:white;
+        margin-top: 140px;
+        height: 50px;
+        width: 180px;
+    }
+    .btn-msg{
+        background-color: #1C4547;
+        color:white;
+        margin-left:10px;
+        width: 180px;
+    }
+    
+    
+    
+    /* Courses */
+    .container-courses{
+        height: 1000px;
+        font-style: 'poppins';
+    }
+    .h2-courses{
+        padding-top: 60px;
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .p-courses{
+        text-align: center; 
+        font-weight: lighter;
+        margin-bottom: 40px;
+    }
+    .row-courses{
+        padding-left: 200px;
+    }
+    .card-course{
+        text-align: center;
+        box-shadow: 0px 2px 87px rgba(182, 182, 182, 0.25);
+    border-radius: 10px;
+    }
+    .card-course-text{
+        font-weight: lighter;
+    }
+    .btn-learn{
+        background-color: #1C4547;
+        color:white;
+        margin-top: 30px;
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+    }
+    .card-course-col{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    
+    
+    
+    /* Services */
+    .container-services{
+        height: 700px;
+    }
+    .h2-services{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .p-services
+    {
+        text-align: center; 
+        font-weight: lighter;
+        padding-bottom: 40px;
+    
+    }
+    .row-services
+    {
+        padding:5%;
+        margin-bottom:50px;
+    }
+    .card-services1{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #38FF34 3.83%, #FFFFFF 50.81%);
+        box-shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services-body{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .card-services2{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #FF9534 3.83%, #FFFFFF 50.81%);
+        box-shadow: 3px 3px 70px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services3{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #34FFC2 3.83%, #FFFFFF 50.81%);
+        -shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    
+    .line3
+    {
+            width: 35%;
+            margin-left: 32%;
+            height: 0px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            border: 1.5px solid #858585;
+           
+    }
+    .icon-img-services{
+    
+        padding-left: 150px;
+        width: 30px; display: inline;
+    }
+    
+    .footer{
+        position: absolute;
+        left:0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(107.71deg, rgba(28, 69, 71, 0) 0%, #6DB0B3 95.97%);
+    }
+    .h1-footer{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 96px;
+        color: #000000;
+        text-align: center;
+    }
+    .row-footer{
+        padding:70px;
+        height: 580px;
+    }
+    .col-footer-1{
+        font-weight:lighter ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding-right:100px;
+        color: #565656;
+    }
+    .row-address
+    {
+        /* width:50%;
+        height:15%; */
+       
+    }
+    .col-location{
+        
+    }
+    
+    .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color:white ;
+    }
+    
+    .col-footer-2{
+    
+    }
+    
+    .form-control1{
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+        
+    }
+    
+    .form-control2{
+        box-sizing: border-box;
+        height: 150px;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+    }
+
+    
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+    .headline-container{
+
+        background:rgb(255, 255, 255);
+        color:white; 
+        background:url('headlineBg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 1200px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .row-headline{
+        height: 856px;
+        width:100%;
+    }
+    .headline-col{
+        padding-top: 125px;
+        width:40%;
+    }
+    
+    .h1-head{
+        font-family: 'poppins';
+        font-weight: bold;
+        font-size: 75px;
+    }
+    .headline-text{
+        padding-top: 100px;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 26px;
+        line-height: 50px;
+        color: #FFFFFF;
+        width: 80%;
+    }
+    
+    .yellowFont{
+        color:#FFA034;
+    }
+    .btn-courses{
+        width: 200px;
+        height: 50px;
+        margin-right: 10px;
+        background-color: #FFA034;
+        margin-top: 100px;
+        font-weight: bold;
+    }
+    .line1{
+        width: 75%;
+        height: 0px;
+        border: 1px solid #858585;
+    }
+    .arrow-right
+    {
+        width: 30px;
+    }
+    
+    
+    /* Container 2 : reasons */
+    
+    .container-reasons{
+        margin-top: 100px;
+        height: 700px;
+    }
+    
+    .h2-reasons{
+        padding-top: 70px;
+        font-size: 55px;
+        text-align: center;
+    }
+    
+    .container-reasonCards{
+    
+        margin-top: 70px;
+        padding-top: 30px;
+        padding-left: 100px;
+        height: 400px;
+    
+    
+    }
+    .card-reasons{
+        width: 300px; height: 350px;
+        /* border-width: 3px; */
+        border-radius: 20px;
+        background: #FFFFFF;
+    
+    }
+    .card-reasons-body{
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .icons-R{
+        width:60px;
+        height: 60px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    }
+    .icon-img{
+        display: block;
+      margin-left: auto;
+      padding-top: 10px;
+      margin-right: auto;
+      width: 70%;
+    }
+    .card-reasons-subtitle{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+    .card-reasons-link{
+        margin-top: 30px;
+        text-decoration: none;
+        color: black;
+    }
+    .line2
+    {
+        width: 35%;
+        margin-left: 32%;
+        height: 0px;
+        margin-top: 40px;
+        border: 1.5px solid #858585;
+       
+    }
+    
+    
+    .row-visuals{
+        margin-top: 200px;
+        height: 700px;
+    }
+    .col-visuals{
+        padding-right:100px;
+        /* height: 200px;
+        width: 200px; */
+    }
+    .col-text
+    {
+    }
+    .h3-visuals{
+        font-style: poppins;
+        font-weight: bold;
+        line-height: 45px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .btn-join{
+        border-radius: 15px;
+        background-color: #1C4547;
+        color:white;
+        margin-top: 140px;
+        height: 50px;
+        width: 180px;
+    }
+    .btn-msg{
+        background-color: #1C4547;
+        color:white;
+        margin-left:10px;
+        width: 180px;
+    }
+    
+    
+    
+    /* Courses */
+    .container-courses{
+        height: 1000px;
+        font-style: 'poppins';
+    }
+    .h2-courses{
+        padding-top: 60px;
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .p-courses{
+        text-align: center; 
+        font-weight: lighter;
+        margin-bottom: 40px;
+    }
+    .row-courses{
+        padding-left: 200px;
+    }
+    .card-course{
+        text-align: center;
+        box-shadow: 0px 2px 87px rgba(182, 182, 182, 0.25);
+    border-radius: 10px;
+    }
+    .card-course-text{
+        font-weight: lighter;
+    }
+    .btn-learn{
+        background-color: #1C4547;
+        color:white;
+        margin-top: 30px;
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+    }
+    .card-course-col{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    
+    
+    
+    /* Services */
+    .container-services{
+        height: 700px;
+    }
+    .h2-services{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 64px;
+        text-align: center;
+    }
+    
+    .p-services
+    {
+        text-align: center; 
+        font-weight: lighter;
+        padding-bottom: 40px;
+    
+    }
+    .row-services
+    {
+        padding:5%;
+        margin-bottom:50px;
+    }
+    .card-services1{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #38FF34 3.83%, #FFFFFF 50.81%);
+        box-shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services-body{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .card-services2{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #FF9534 3.83%, #FFFFFF 50.81%);
+        box-shadow: 3px 3px 70px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    .card-services3{
+        width: 300px;
+        height:250px;
+        background: linear-gradient(224.58deg, #34FFC2 3.83%, #FFFFFF 50.81%);
+        -shadow: 2px 2px 60px rgba(182, 182, 182, 0.35);
+        border-radius: 40px;
+    }
+    
+    .line3
+    {
+            width: 35%;
+            margin-left: 32%;
+            height: 0px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            border: 1.5px solid #858585;
+           
+    }
+    .icon-img-services{
+    
+        padding-left: 150px;
+        width: 30px; display: inline;
+    }
+    
+    .footer{
+        position: absolute;
+        left:0;
+        width: 100%;
+        height: 700px;
+        background: linear-gradient(107.71deg, rgba(28, 69, 71, 0) 0%, #6DB0B3 95.97%);
+    }
+    .h1-footer{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 96px;
+        color: #000000;
+        text-align: center;
+    }
+    .row-footer{
+        padding:70px;
+        height: 580px;
+    }
+    .col-footer-1{
+        font-weight:lighter ;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        padding-right:100px;
+        color: #565656;
+    }
+    .row-address
+    {
+        /* width:50%;
+        height:15%; */
+       
+    }
+    .col-location{
+        
+    }
+    
+    .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        background-color:white ;
+    }
+    
+    .col-footer-2{
+    
+    }
+    
+    .form-control1{
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+        
+    }
+    
+    .form-control2{
+        box-sizing: border-box;
+        height: 150px;
+        background: #FFFFFF;
+        border: 1px solid #1C4547;
+        border-radius: 49px;
+        margin-bottom:30px;
+    }
+
+
+}
+
