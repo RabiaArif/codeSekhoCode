@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link href="landingPage.css" rel="stylesheet">
+
+  <style>
+    /* for sidebar */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    height: 100%;
+    width: 50px;
+    background: #11101d;
+    padding: 6px 14px;
+    z-index: 99;
+    margin-right: 20px;
+  }
+  
+  .sidebar .nav-list {
+    margin-top: 20px;
+    height: 100%;
+  }
+  
+  .sidebar li {
+    position: relative;
+    margin: 8px 0;
+    height: 40px;
+  }
+  
+  .sidebar li .tooltip {
+    position: absolute;
+    top: -20px;
+    left: calc(100% + 15px);
+    z-index: 3;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0s;
+    color: #339933;
+  }
+  /* .sidebar-logout{
+    position: fixed !important;
+    bottom: 0 !important;
+    margin: 20px 0px !important;
+  } */
+  
+  .sidebar li:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  </style>
+
+</head>
+
+<body>
+    <div class="sidebar">
+        {/* if we need logo in the sidebar
+        ::::
+        <div className="logo_content">
+            <div className="logo">
+                <img src={favicon} alt="logo" className="logo" />
+                <AiFillShopping />
+                <div className="logo_name">
+                    Anarkali
+                </div>
+            </div>
+            <AiOutlineBars name='menu' id="btn-sidebar" />
+        </div> */}
+
+        <ul class="nav_list list-unstyled ">
+            {/* <li className="dashboard-style">
+                <Link to="/" className="link-light">
+                <AiOutlineAppstore />
+                <span className="links_name">Dash Board</span>
+                </Link>
+                <span className="tooltip">Dash Board</span>
+            </li> */}
+            {/* for search
+            <li>
+                <a href="#">
+                    <AiOutlineSearch />
+                    <input className="links_name" type="text" placeholder="Search" />
+                </a>
+                <span className="links_name">Search</span>
+            </li> */}
+            <li className="dashboard-style">
+                <Link to="/" className="link-light">
+                <AiFillHome />
+                </Link>
+                <span className="tooltip">Home</span>
+            </li>
+            <li>
+                <Link to="/Seller" className="link-light">
+                <AiOutlineUser />
+                </Link>
+                <span className="tooltip">Profile</span>
+            </li>
+            {/* <li>
+                <Link to="./User" className="link-light">
+                <AiOutlineUser />
+                </Link>
+                <span className="tooltip">User</span>
+            </li> */}
+            {/* <li>
+                <Link to="/" className="link-light">
+                <AiFillMessage />
+                </Link>
+                <span className="tooltip">Messages</span>
+            </li> */}
+            <li>
+                <Link to="/cart" className="link-light">
+                <BiCartAlt />
+                </Link>
+                <span className="tooltip">Cart</span>
+            </li>
+            {/* <li>
+                <Link to="/" className="link-light">
+                <AiOutlineHeart />
+                </Link>
+                <span className="tooltip">Wished</span>
+            </li> */}
+            {/* <li>
+                <Link to="/" className="link-light">
+                <BiCalculator />
+                </Link>
+                <span className="tooltip">Calculator</span>
+            </li>
+            <li>
+                <Link to="/" className="link-light">
+                <AiFillSetting />
+                </Link>
+                <span className="tooltip">Settings</span>
+            </li> */}
+            {/* <li>
+                <Link to="/" className="link-light">
+                <BiHelpCircle />
+                </Link>
+                <span className="tooltip">Help</span>
+            </li> */}
+            {/* these two are used just to make a gap/margin for "login" */}
+            <li>
+                <Link to="/" className="link-light">
+                {/*
+                <BiHelpCircle /> */}
+                </Link>
+                {/* <span className="tooltip">Help</span> */}
+            </li>
+            <li>
+                <Link to="/" className="link-light">
+                {/*
+                <BiHelpCircle /> */}
+                </Link>
+                {/* <span className="tooltip">Help</span> */}
+            </li>
+
+            <li className="profile logout-style">
+                <Link to="/login" className="link-light">
+                <BiLogOut id="log_out" />
+                </Link>
+                <span className="tooltip ">Logout</span>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

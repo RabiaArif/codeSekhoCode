@@ -1,0 +1,47 @@
+body {
+    max-width: 100%;
+    font-family: 'poppins';
+
+}
+
+/* for sidebar */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    height: 100%;
+    width: 220px;
+    background: #fff;
+    padding: 6px 14px;
+    z-index: 99;
+    margin-right: 20px;
+
+}
+.link{
+    color:#1C4547;
+    text-decoration: none;
+}
+
+.sidebar .nav-list {
+    margin-top: 20px;
+    height: 100%;
+}
+
+.sidebar li {
+    color: #1C4547;
+    position: relative;
+    margin: 8px 0;
+    height: 40px;
+}
+
+.sidebar li:hover{
+    background: #9FA2B4;
+    opacity: 0.09;
+    color:#1C4547 !important;
+}
+
+.link:hover{
+    color:#1C4547 !important;
+
+}
