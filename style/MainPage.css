@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    max-width: 100%;
+    font-family: 'poppins';
+
+}
+
+/* for sidebar */
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    height: 100%;
+    width: 220px;
+    background: #fff;
+    padding: 6px 14px;
+    z-index: 99;
+    margin-right: 20px;
+
+}
+.link{
+    color:#1C4547;
+    text-decoration: none;
+}
+
+.sidebar .nav-list {
+    margin-top: 20px;
+    height: 100%;
+}
+
+.sidebar li {
+    color: #1C4547;
+    position: relative;
+    margin: 8px 0;
+    height: 40px;
+}
+
+.sidebar li:hover{
+    background: #cde6de;
+    color:#1C4547 !important;
+}
+
+.link:hover{
+    color:#1C4547 !important;
+
+}
+
+.main-container
+{
+    background: rgba(97, 115, 142, 0.03);
+}
+
+
+
+.tabs {
+    margin-left: 10%;
+    background-color: aqua;
+}
+.tabs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs ul {
+    padding-left: 20px;
+    z-index: 5;
+}
+.tabs ul li {
+    color: grey;
+    background: #fefefe;
+    padding: 14px 24px 10px;
+    margin: 0px -6px 0 10px;
+    position: relative;
+    float: left;
+    text-align: center;
+    z-index: 1;
+}
+.tabs ul li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    width: 70%;
+    height: 100%;
+    border-style: solid;
+    border-color: #eee;
+    border-width: 2px 0 2px 2px;
+    border-radius: 8px 0 0 0;
+    -webkit-transform: skewX(-20deg);
+       -moz-transform: skewX(-20deg);
+         -o-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-color: inherit;
+    z-index: -1;
+}
+.tabs ul li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0; right: 0;
+    width: 70%;
+    height: 100%;
+    border-style: solid;
+    border-color: #eee;
+    border-width: 2px 2px 2px 0;
+    border-radius: 0 8px 0 0;
+    -webkit-transform: skewX(20deg);
+       -moz-transform: skewX(20deg);
+         -o-transform: skewX(20deg);
+            transform: skewX(20deg);
+    background-color: inherit;
+    z-index: -1;
+}
+.tabs ul li.active {
+    color: orange;
+    z-index: 10;
+}
+.tabs ul li.active::before,
+.tabs ul li.active::after {
+    background-color: #fff;
+    border-bottom-color: #fff;
+}
+.tabs ul li:not([class='active']):hover::before,
+.tabs ul li:not([class='active']):hover::after {
+    background-color: #efefef; 
+}
